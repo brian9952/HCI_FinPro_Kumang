@@ -1,0 +1,159 @@
+.html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.backgroundCustom{
+  background-color: #00111a;
+}
+@font-face{
+  font-family: harytian;
+  src: url(fonts/harytian/harytian.otf);
+}
+@font-face{
+  font-family: colombia;
+  src: url(fonts/colombia/Colombia.otf);
+}
+@font-face{
+  font-family: geosanslight;
+  src: url(fonts/geosanslight/GeosansLight.ttf);
+}
+.carousel_responsive{
+  width: 100%;
+  height: 90%;
+  filter: grayscale(40%);
+  filter: sepia(80%);
+  filter: brightness(45%);
+}
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #000000;
+  -moz-box-shadow: 0 8px 6px -6px #000000;
+  box-shadow: 0 8px 6px -6px #000000;
+  padding: 0;
+  padding-left: 1vw;
+}
+.nav-item:hover{
+  background-color: #04471c;
+}
+.nav-link{
+  color:black;
+  font-size: 1.9vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.nav-link:hover{
+  color:white;
+  transition-duration: 0.4s;
+}
+.a.card,
+.a.card:hover{
+  color: inherit;
+}
+a.btn .btn-primary .custom-button .stretched-link{
+  background-color: #00111a !important;
+  color:#ffa31a !important;
+  border-color: #00111a !important;
+}
+a.btn .btn-primary .custom-button .stretched-link:hover{
+  background-color: #004466 !important;
+}
+.jumbotron.collection{
+  background-image: linear-gradient(to bottom right,#0d2818,#04471c);
+  box-shadow: 0 8px 6px -6px #000000;
+  padding: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+h1.collectionWord{
+  font-family: colombia;
+  font-size: 4vw;
+  color: white;
+}
+.card-deck{
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+.card-deck.carcol{
+  overflow: hidden;
+}
+.card.bg-custom{
+  background-image: linear-gradient(to bottom right,#0d2818,#04471c);
+  padding-left: 0;
+  padding-right: 0;
+}
+.card-text{
+  color: white;
+  font-family: geosanslight;
+  font-size: 2vw;
+}
+.button-seemore {
+  background-color: #ffa31a;
+  border: 2px solid #04471c;
+  color: black;
+  padding: 0.5vw 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  margin-right: 3vw;
+  border-radius: 6px;
+}
+.button-seemore:hover{
+  background-color: #04471c;
+  color: black
+}
+.jumbotron.joinus{
+  background-image: linear-gradient(to bottom right,#004ba8,#3e78b2);
+  box-shadow: 0 8px 6px -6px #000000;
+  padding: 1.5vw;
+}
+.joinus-text{
+  font-size: 7vw;
+  color: black;
+  font-family: colombia;
+}
+.joinus-message{
+  font-size: 2vw;
+  color: black;
+}
+.container-fluid.footer{
+  background-image: url("images/footer-bg.jpg");
+  background-size: cover;
+}
+.container-fluid.left{
+  background-color: #003844;
+  margin-left: -1.2vw;
+}
+.footer-text{
+  margin-left: 2vw;
+  padding: 2vw;
+  color: #ffa31a;
+}
+td{
+  vertical-align: text-top;
+}
+.footer.inner{
+  color: #ffa31a;
+}
+.inner.text{
+  color: white;
+}

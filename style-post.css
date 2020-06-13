@@ -1,0 +1,102 @@
+.html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.backgroundCustom{
+  background-color: #00111a;
+}
+@font-face{
+  font-family: harytian;
+  src: url(fonts/harytian/harytian.otf);
+}
+@font-face{
+  font-family: colombia;
+  src: url(fonts/colombia/Colombia.otf);
+}
+.carousel_responsive{
+  width: 100%;
+  height: 90%;
+  filter: grayscale(40%);
+  filter: sepia(80%);
+  filter: brightness(45%);
+}
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #000000;
+  -moz-box-shadow: 0 8px 6px -6px #000000;
+  box-shadow: 0 8px 6px -6px #000000;
+  padding: 0;
+  padding-left: 1vw;
+}
+.nav-item:hover{
+  background-color: #804d00;
+}
+.nav-link{
+  color:black;
+  font-size: 1.9vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.nav-link:hover{
+  color:black;
+}
+.card-deck{
+  margin-right: 2vw;
+  margin-left: 2vw;
+  overflow: hidden;
+}
+.card-text{
+  color: black;
+}
+.card.bg-custom{
+  padding-left: 0;
+  padding-right: 0;
+}
+.collection-title{
+  float: left;
+  font-family: colombia;
+  color: white;
+  margin-left: 3vw;
+  font-size: 4vw;
+}
+.card.bg-custom{
+  background-color: #ffa31a;
+}
+button.submitbutton{
+  width: 19vw;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0.2vw;
+  border: 2px solid #47525e;
+  font-family: coolvetica;
+  font-size: 1.4vw;
+}
+.submitbutton:hover{
+  background-color: #47525e;
+  color: white;
+}
+label{
+  color: white;
+}

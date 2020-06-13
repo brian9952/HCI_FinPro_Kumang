@@ -1,0 +1,84 @@
+body{
+  background-image : url("./images/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@font-face {
+  font-family: eastwood;
+  src: url(fonts/eastwood/Eastwood.otf);
+}
+@font-face{
+  font-family: colombia;
+  src: url(fonts/colombia/Colombia.otf);
+}
+@font-face{
+  font-family: coolvetica;
+  src: url(fonts/coolvetica/coolvetica.ttf);
+}
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #000000;
+  -moz-box-shadow: 0 8px 6px -6px #000000;
+  box-shadow: 0 8px 6px -6px #000000;
+  padding: 0;
+  padding-left: 1vw;
+}
+.nav-item:hover{
+  background-color: #04471c;
+}
+.nav-link{
+  color:black;
+  font-size: 1.9vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.nav-link:hover{
+  color:white;
+  transition-duration: 0.4s;
+}
+.container-fluid.full{
+  height : 100%;
+  position: absolute;
+}
+.container-fluid.right{
+  height: 100%;
+  padding: 4vw;
+  background-color: rgba(51,64,75,0.8);
+}
+.container-fluid.left{
+  height: 100%;
+  padding: 5vw;
+}
+.container.inner-right{
+  opacity: 1;
+  margin: 0;
+  top : 3%;
+  position: relative;
+  background-color : #ffffff;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p.register-message{
+  font-size: 1.5vw;
+}
+button.submitbutton{
+  width: 19.8vw;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0.2vw;
+  border: 2px solid #47525e;
+  font-family: coolvetica;
+  font-size: 1.8vw;
+}
+.submitbutton:hover{
+  background-color: #47525e;
+  color: white;
+}
